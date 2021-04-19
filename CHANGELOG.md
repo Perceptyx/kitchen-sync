@@ -1,5 +1,13 @@
 # Kitchen-Sync Changelog
 
+## v2.2.1
+
+Fix compatibility with current `kitchen-inspec` verifier.
+
+## v2.2.0
+
+Add configurable `ruby_path` for `sftp` transport.
+
 ## v2.1.2
 
 Catch errors from closed sockets during instance shutdown. Fixes compat with
